@@ -1,0 +1,23 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px
+}
+
+h2 {
+    text-align: center;
+}
+.controls {
+    text-align: center;
+}
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    width: 100%;    /* Image will scale with the container's width */
+  max-width: 100%;  /* Prevent the image from stretching beyond its natural width */
+  height: auto;   /* Keep the aspect ratio of the image */
+}
+.hl {
+    color: var(--base);
+}
